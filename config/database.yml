@@ -29,7 +29,8 @@ development:
 #  password:
 #  socket: /var/run/mysqld/mysqld.sock
 #
-adapter: postgresql
+production:
+  adapter: postgresql
   encoding: unicode
   database: myapp_production
   pool: 5

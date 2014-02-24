@@ -5,14 +5,14 @@
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:myapp_development</jdbc-url>
-      <user-name>myapp</user-name>
-      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfcedf9b</user-password>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails mBlog1: production" uuid="04d7cbf8-d148-4c93-9226-b6d761cffdc5">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/mBlog1_development</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:myapp_production</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfd8dfc5dfc5dfde</user-password>
       <libraries />
