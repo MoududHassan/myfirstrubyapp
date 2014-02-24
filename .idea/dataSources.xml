@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1308213337">
+  <component name="DataSourceManagerImpl" format="xml" hash="1046275528">
     <data-source source="LOCAL" name="Rails mBlog1: development" uuid="17dc8548-1a67-4fa4-981b-6b8d505eef96">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/mBlog1_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails mBlog1: production" uuid="04d7cbf8-d148-4c93-9226-b6d761cffdc5">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://127.0.0.1/mBlog1_development</jdbc-url>

@@ -13,9 +13,10 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mBlog1@IRB_console__mBlog1.coverage" NAME="IRB console: mBlog1 Coverage Results" MODIFIED="1392795925716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
-    <SUITE FILE_PATH="coverage/mBlog1@Development__mBlog1.coverage" NAME="Development: mBlog1 Coverage Results" MODIFIED="1393227335472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
+    <SUITE FILE_PATH="coverage/mBlog1@Development__mBlog1.coverage" NAME="Development: mBlog1 Coverage Results" MODIFIED="1393230447522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
     <SUITE FILE_PATH="coverage/mBlog1@db_create__mBlog1.coverage" NAME="db:create: mBlog1 Coverage Results" MODIFIED="1392615706814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
     <SUITE FILE_PATH="coverage/mBlog1@Rails_console__mBlog1.coverage" NAME="Rails console: mBlog1 Coverage Results" MODIFIED="1392719806408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
+    <SUITE FILE_PATH="coverage/mBlog1@Production__mBlog1.coverage" NAME="Production: mBlog1 Coverage Results" MODIFIED="1393230393239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mBlog1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -59,7 +60,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="660">
+            <state line="36" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -86,7 +87,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="6" column="12" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -95,7 +96,16 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.3275862" vertical-offset="260" max-vertical-offset="1290">
+            <state line="13" column="49" selection-start="585" selection-end="585" vertical-scroll-proportion="0.33620688" vertical-offset="0" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -120,12 +130,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/public/demo/index.html" />
         <option value="$PROJECT_DIR$/app/views/demo/hello.html.erb" />
         <option value="$PROJECT_DIR$/app/views/demo/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/demo_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
@@ -835,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="7" selection-start="287" selection-end="287" vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="580">
@@ -898,16 +901,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+        <state line="6" column="12" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.3275862" vertical-offset="260" max-vertical-offset="1290">
+        <state line="13" column="49" selection-start="585" selection-end="585" vertical-scroll-proportion="0.33620688" vertical-offset="0" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
